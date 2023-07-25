@@ -4,5 +4,5 @@ metadata:
   name: "hello-world-app"
 spec:
   type: service
-  owner: user:guest
+  owner: IDP-Admin
   lifecycle: experimental
