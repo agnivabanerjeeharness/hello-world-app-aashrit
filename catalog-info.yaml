@@ -4,6 +4,8 @@ metadata:
   name: "hello-world-app"
   annotations:
     github.com/project-slug: Aashrit-Harness/hello-world-app
+    backstage.io/kubernetes-label-selector: 'app=idp-ui'
+    backstage.io/kubernetes-namespace: '63feee14cbf66e3c798c4bdc'
 spec:
   type: service
   owner: "IDPAdmin"
