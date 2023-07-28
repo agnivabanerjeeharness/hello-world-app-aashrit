@@ -7,6 +7,7 @@ metadata:
     github.com/project-slug: Aashrit-Harness/hello-world-app
     backstage.io/kubernetes-label-selector: 'app=idp-ui'
     backstage.io/kubernetes-namespace: '63feee14cbf66e3c798c4bdc'
+    jira/project-key: IDP
 spec:
   type: service
   owner: "IDPAdmin"
