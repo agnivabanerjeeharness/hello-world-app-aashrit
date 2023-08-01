@@ -8,6 +8,7 @@ metadata:
     backstage.io/kubernetes-label-selector: 'app=idp-ui'
     backstage.io/kubernetes-namespace: '642d4b9741ee3c555d4e1a7f'
     jira/project-key: IDP
+    pagerduty.com/service-id: PT5ED69
 spec:
   type: service
   owner: "IDPAdmin"
