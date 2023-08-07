@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "hello-world-app-plugins"
+  name: "hello-world-app-filters"
   annotations:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: Aashrit-Harness/hello-world-app
