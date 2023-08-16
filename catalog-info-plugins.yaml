@@ -11,7 +11,7 @@ metadata:
     pagerduty.com/service-id: PT5ED69
     circleci.com/project-slug: github/vigneswara-propelo/python-pipeline-samples
     jenkins.io/github-folder: 'CDS-68313'
-    firehydrant.com/service-name: 'IDP UI Automation'
+    firehydrant.com/service-name: 'idp-ui-automation'
 spec:
   type: service
   owner: "IDPAdmin"
