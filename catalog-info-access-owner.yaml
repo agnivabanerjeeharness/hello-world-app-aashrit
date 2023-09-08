@@ -14,5 +14,5 @@ metadata:
     firehydrant.com/service-name: 'pipeline-service'
 spec:
   type: service
-  owner: "IDPAdmin"
+  owner: harness_account_all_users
   lifecycle: experimental
