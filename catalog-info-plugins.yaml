@@ -12,7 +12,7 @@ metadata:
     circleci.com/project-slug: github/vigneswara-propelo/python-pipeline-samples
     jenkins.io/github-folder: 'CDS-68313'
     firehydrant.com/service-name: 'idp-ui-automation'
-    sonarqube.org/project-key: ccmui
+    sonarqube.org/project-key: harness/ccmui
 spec:
   type: service
   owner: "IDPAdmin"
