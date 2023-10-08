@@ -3,7 +3,6 @@ kind: Component
 metadata:
   name: "hello-world-app-overview"
   annotations:
-    backstage.io/techdocs-ref: dir:.
     github.com/project-slug: Aashrit-Harness/hello-world-app
     backstage.io/kubernetes-label-selector: 'app=idp-ui'
     backstage.io/kubernetes-namespace: '642d4b9741ee3c555d4e1a7f'
