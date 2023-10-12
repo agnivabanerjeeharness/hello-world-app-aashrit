@@ -14,7 +14,7 @@ metadata:
     firehydrant.com/service-name: 'idp-ui-automation'
     sonarqube.org/project-key: ccmui
     datadoghq.com/site: datadoghq.com
-    datadoghq.com/dashboard-url: datadoghq.com/praveens-timeboard-1-feb-2020-1805
+    datadoghq.com/dashboard-url: datadoghq.com/dashboard/k2r-3an-uec/praveens-timeboard-1-feb-2020-1805
     datadoghq.com/graph-token: afa83581c8066fa1bca164b9b5cd9efc5d886ee7d58eef854b0f83541cfab9df
 spec:
   type: service
