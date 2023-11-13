@@ -17,6 +17,7 @@ metadata:
     datadoghq.com/dashboard-url: https://p.datadoghq.com/sb/sbi3nxkufr6tp6mm-4286f16041defcdf017b38334b8aef35
     datadoghq.com/graph-token: afa83581c8066fa1bca164b9b5cd9efc5d886ee7d58eef854b0f83541cfab9df
     gitlab.com/project-id: '50907330'
+    prometheus.io/rule: memUsage|component,node_memory_active_bytes|instance,sum by (instance) (node_cpu_seconds_total)
 spec:
   type: service
   owner: "IDPAdmin"
