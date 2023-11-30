@@ -21,7 +21,7 @@ metadata:
     prometheus.io/alert: all
     opsgenie.com/component-selector: 'tag:"service:hello_world"'
     opsgenie.com/team: 'Hello World Team'
-    dynatrace.com/dynatrace-entity-id: SERVICE-DEMO0000001
+    dynatrace.com/synthetics-ids: HTTP_CHECK-D3BE9FA03FDFFF24
 spec:
   type: service
   owner: "IDPAdmin"
