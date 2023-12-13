@@ -31,3 +31,7 @@ spec:
     getResponse: '{{ steps.backstage_request.output.body }}'
     getCode: '{{ steps.backstage_request.output.code }}'
     getHeaders: '{{ steps.backstage_request.output.headers }}'
+    text:
+      - title: More information
+        content: |
+          **Body:** `${{ steps.backstage_request.output.body }}`
