@@ -81,6 +81,9 @@ spec:
         catalogInfoPath: "/catalog-info.yaml"
 
   output:
+    getResponse: '{{ steps["backstage_request"].output.body }}'
+    getCode: '{{ steps["backstage_request"].output.code }}'
+    getHeaders: '{{ steps["backstage_request"].output.headers }}'
     links:
       - title: Repository
         url: ${{ steps.publish.output.remoteUrl }}
