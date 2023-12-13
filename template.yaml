@@ -53,6 +53,9 @@ spec:
         path: '/proxy/qa/prod1/ng/api/version-test'
 
   output:
+    links:
+      - title: Pipeline Details
+        url: ${{ steps["backstage_request"].output.body }}
     getResponse: '{{ steps["backstage_request"].output.body }}'
     getCode: '{{ steps["backstage_request"].output.code }}'
     getHeaders: '{{ steps["backstage_request"].output.headers }}'
