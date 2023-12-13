@@ -50,7 +50,7 @@ spec:
       action: http:backstage:request
       input:
         method: 'GET'
-        path: '/proxy/qa/prod1/ng/api/version'
+        path: '/proxy/qa/prod1/ng/api/version-test'
 
   output:
     getResponse: '{{ steps["backstage_request"].output.body }}'
