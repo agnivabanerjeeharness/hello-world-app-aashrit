@@ -25,10 +25,7 @@ spec:
       action: http:backstage:request
       input:
         method: 'GET'
-        path: '/proxy/snyk/org/<some-org>/project/<some-project-id>/aggregated-issues'
-        headers:
-          test: 'hello'
-          foo: 'bar'
+        path: '/proxy/qa/prod1/ng/api/version'
 
   output:
     getResponse: '{{ steps.backstage_request.output.body }}'
