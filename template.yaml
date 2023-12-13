@@ -1,61 +1,36 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: create-react-app-template
-  title: Create React App Template
-  description: Create a new CRA website project
-  tags:
-    - react
-    - cra
+  name: HTTP-testing
+  title: Http testing for post/get
+  description: Testing get functionality with get
 spec:
-  owner: web@example.com
-  type: website
+  owner: roadie
+  type: service
+
   parameters:
-    - title: Provide some simple information
-      required:
-        - component_id
-        - owner
+    - title: Fill in some params
       properties:
-        component_id:
-          title: Name
+        httpGetPath:
+          title: Get Path
           type: string
-          description: Unique name of the component
-          ui:field: EntityNamePicker
-        description:
-          title: Description
-          type: string
-          description: Help others understand what this website is for.
-        owner:
-          title: Owner
-          type: string
-          description: Owner of the component
-          ui:field: OwnerPicker
+          description: The path you want to get on your backstage instance
+          ui:autofocus: true
           ui:options:
-            allowedKinds:
-              - Group
-    - title: Choose a location
-      required:
-        - repoUrl
-      properties:
-        repoUrl:
-          title: Repository Location
-          type: string
-          ui:field: RepoUrlPicker
-          ui:options:
-            allowedHosts:
-              - github.com
+            rows: 5
+
   steps:
     - id: backstage_request
       name: backstage request
       action: http:backstage:request
       input:
         method: 'GET'
-        path: '/proxy/qa/prod1/ng/api/version-test'
+        path: '/proxy/snyk/org/<some-org>/project/<some-project-id>/aggregated-issues'
+        headers:
+          test: 'hello'
+          foo: 'bar'
 
   output:
-    links:
-      - title: Pipeline Details
-        url: ${{ steps["backstage_request"].output.body }}
-    getResponse: '{{ steps["backstage_request"].output.body }}'
-    getCode: '{{ steps["backstage_request"].output.code }}'
-    getHeaders: '{{ steps["backstage_request"].output.headers }}'
+    getResponse: '{{ steps.backstage_request.output.body }}'
+    getCode: '{{ steps.backstage_request.output.code }}'
+    getHeaders: '{{ steps.backstage_request.output.headers }}'
