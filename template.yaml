@@ -50,7 +50,7 @@ spec:
       action: http:backstage:request
       input:
         method: 'GET'
-        path: 'http://qa.harness.io/prod1/ng/api/version'
+        path: '/proxy/qa/prod1/ng/api/version'
     - id: template
       name: Fetch Skeleton + Template
       action: fetch:template
