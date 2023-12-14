@@ -25,7 +25,7 @@ spec:
       action: http:backstage:request
       input:
         method: 'GET'
-        path: '/proxy/qa/prod1/ng/api/version'
+        path: '/proxy/qa/ng/static/versions1.html'
 
   output:
     text:
