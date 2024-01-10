@@ -23,6 +23,9 @@ metadata:
     opsgenie.com/team: 'Hello World Team'
     dynatrace.com/dynatrace-entity-id: MOBILE_APPLICATION-0D7EA9EA28BA445A
     dynatrace.com/synthetics-ids: HTTP_CHECK-D3BE9FA03FDFFF24
+    rootly.com/service-id: 3d62aea1-509f-4c31-a8d1-6d2515b16e66
+    rootly.com/service-auto-import: enabled
+
 spec:
   type: service
   owner: "IDPAdmin"
