@@ -25,7 +25,8 @@ metadata:
     dynatrace.com/synthetics-ids: HTTP_CHECK-D3BE9FA03FDFFF24
     rootly.com/service-id: 3d62aea1-509f-4c31-a8d1-6d2515b16e66
     rootly.com/service-auto-import: enabled
-
+    dev.azure.com/project-repo: idp-test/idp-test
+    dev.azure.com/project: idp-test
 spec:
   type: service
   owner: "IDPAdmin"
