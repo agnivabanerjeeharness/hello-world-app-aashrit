@@ -16,7 +16,8 @@ spec:
       action: trigger:harness-custom-pipeline
       input:
         url: 'https://qa.harness.io/ng/account/Vp0XSI5MSgiF9p8lIIpThg/module/cd/orgs/default/projects/automation/pipelines/testautomation/executions/tAxCjsL9TFuOuKtUEubr6A/pipeline'   
-        inputset: 
+        inputset:
+          project_name: 'test'
   output:
     links:
       - title: Pipeline Details
