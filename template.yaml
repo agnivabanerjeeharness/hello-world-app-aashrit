@@ -22,7 +22,7 @@ spec:
       name: Simple Pipeline with wait step
       action: trigger:harness-custom-pipeline
       input:
-        url: 'https://qa.harness.io/ng/account/Vp0XSI5MSgiF9p8lIIpThg/module/cd/orgs/default/projects/automation/pipelines/testautomation/executions/tAxCjsL9TFuOuKtUEubr6A/pipeline'   
+        url: 'https://qa.harness.io/ng/account/Vp0XSI5MSgiF9p8lIIpThg/module/cd/orgs/default/projects/automation/pipelines/TemplateAutomation/pipeline-studio?storeType=INLINE'   
         inputset:
           project_name: 'test'
         apikey: ${{ parameters.token }}
