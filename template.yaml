@@ -1,34 +1,22 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: HTTP-testing
-  title: Http testing for post/get
-  description: Testing get functionality with get
+  name: test-automation
+  title: Trigger a simple pipeline
+  description: An template for the scaffolder that triggers a simple pipeline
+  tags:
+    - pipeline
+    - harness
 spec:
-  owner: roadie
+  owner: aashrit.garg@harness.io
   type: service
-
-  parameters:
-    - title: Fill in some params
-      properties:
-        httpGetPath:
-          title: Get Path
-          type: string
-          description: The path you want to get on your backstage instance
-          ui:autofocus: true
-          ui:options:
-            rows: 5
-
   steps:
-    - id: backstage_request
-      name: backstage request
-      action: http:backstage:request
+    - id: trigger
+      name: Simple Pipeline with wait step
+      action: trigger:harness-custom-pipeline
       input:
-        method: 'GET'
-        path: '/proxy/qa/ng/static/versions1.html'
-
+        url: 'https://qa.harness.io/ng/account/Vp0XSI5MSgiF9p8lIIpThg/module/cd/orgs/default/projects/automation/pipelines/testautomation/executions/tAxCjsL9TFuOuKtUEubr6A/pipeline'   
   output:
-    text:
-      - title: More information
-        content: |
-          **Body:** `${{ steps['backstage_request'].output.body }}`
+    links:
+      - title: Pipeline Details
+        url: ${{ steps.trigger.output.PipelineUrl }}
