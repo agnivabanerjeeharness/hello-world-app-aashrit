@@ -10,6 +10,13 @@ metadata:
 spec:
   owner: aashrit.garg@harness.io
   type: service
+  parameters:
+    # This field is hidden but needed to authenticate the request to trigger the pipeline
+    token:
+      title: Harness Token
+      type: string
+      ui:widget: password
+      ui:field: HarnessAuthToken
   steps:
     - id: trigger
       name: Simple Pipeline with wait step
@@ -18,6 +25,7 @@ spec:
         url: 'https://qa.harness.io/ng/account/Vp0XSI5MSgiF9p8lIIpThg/module/cd/orgs/default/projects/automation/pipelines/testautomation/executions/tAxCjsL9TFuOuKtUEubr6A/pipeline'   
         inputset:
           project_name: 'test'
+        apikey: ${{ parameters.token }}
   output:
     links:
       - title: Pipeline Details
