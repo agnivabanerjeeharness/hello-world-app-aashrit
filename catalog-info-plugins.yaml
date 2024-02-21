@@ -4,9 +4,7 @@ metadata:
   name: "hello-world-app-plugins"
   additionalInfo:
     value1: Aashrit
-    value2: 
-      - Garg
-      - Singla
+    value2: Garg
   annotations:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: Aashrit-Harness/hello-world-app
