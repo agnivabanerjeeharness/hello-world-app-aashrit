@@ -5,6 +5,7 @@ metadata:
   additionalInfo:
     value1: Aashrit
     value2: Garg
+    value3: google
   annotations:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: Aashrit-Harness/hello-world-app
