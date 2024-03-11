@@ -30,6 +30,7 @@ metadata:
     rootly.com/service-id: 3d62aea1-509f-4c31-a8d1-6d2515b16e66
     rootly.com/service-auto-import: enabled
     dev.azure.com/project-repo: idp-test/idp-test
+    github.com/devcontainer-path: .devcontainer/devcontainer.json
 spec:
   type: service
   owner: "IDPAdmin"
