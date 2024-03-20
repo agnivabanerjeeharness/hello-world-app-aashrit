@@ -31,7 +31,7 @@ metadata:
     rootly.com/service-auto-import: enabled
     dev.azure.com/project-repo: idp-test/idp-test
     github.com/devcontainer-path: .devcontainer/devcontainer.json
-    splunk.com/on-call-team: IDP
+    splunk.com/on-call-routing-key: test
 spec:
   type: service
   owner: "IDPAdmin"
