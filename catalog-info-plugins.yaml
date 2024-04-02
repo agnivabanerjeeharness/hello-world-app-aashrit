@@ -32,7 +32,7 @@ metadata:
     dev.azure.com/project-repo: idp-test/idp-test
     github.com/devcontainer-path: .devcontainer/devcontainer.json
     splunk.com/on-call-team: Example
-    backstage:source-location: https://github.com/Aashrit-Harness/hello-world-app/blob/master/
+    backstage.io/source-location: https://github.com/Aashrit-Harness/hello-world-app/blob/master/
 spec:
   type: service
   owner: "IDPAdmin"
