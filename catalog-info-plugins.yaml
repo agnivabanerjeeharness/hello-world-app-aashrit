@@ -33,6 +33,7 @@ metadata:
     github.com/devcontainer-path: .devcontainer/devcontainer.json
     splunk.com/on-call-team: Example
     backstage.io/source-location: url:https://github.com/Aashrit-Harness/hello-world-app/blob/master/
+    backstage.io/adr-location: docs/adrs
 
 spec:
   type: service
