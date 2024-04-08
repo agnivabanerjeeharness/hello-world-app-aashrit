@@ -1,36 +1,56 @@
-# ADR Template: Use of Docker for Application Deployment
+# Use of Docker for Container Orchestration
 
-## Context
-Our project is transitioning from traditional on-premises deployment to a cloud-based infrastructure. We need to decide on the technology stack for deploying our applications in the cloud. Key requirements include scalability, portability, and ease of management.
+* Status: Accepted
+* Date: 2024-04-05
 
-## Decision
-We have decided to use Docker for application deployment in the cloud environment. Docker provides containerization technology, which encapsulates applications and their dependencies into portable containers. These containers can be easily deployed across different environments, ensuring consistency and portability.
+## Context and Problem Statement
 
-## Rationale
-Several factors influenced our decision to use Docker:
+Our project is transitioning to a microservices architecture, and we need to decide on a container orchestration platform for managing and scaling our Docker containers in production.
 
-- Scalability: Docker containers can scale horizontally to handle increased workload demands efficiently.
-- Portability: Docker containers are platform-independent and can run on any infrastructure that supports Docker, providing flexibility and portability.
-- Dependency Management: Docker allows us to package applications along with their dependencies, ensuring consistency and eliminating compatibility issues.
-- DevOps Integration: Docker integrates seamlessly with DevOps tools and practices, enabling automation, continuous integration, and deployment pipelines.
-- Community Support: Docker has a large and active community, providing extensive documentation, tutorials, and support resources.
+## Decision Drivers
 
-Based on these factors, Docker emerged as the most suitable technology for our application deployment needs in the cloud environment.
+* Scalability requirements
+* Portability across different environments
+* Integration with existing DevOps practices
 
-## Consequences
-The decision to use Docker for application deployment has the following consequences:
+## Considered Options
 
-- Increased Complexity: Docker introduces additional complexity compared to traditional deployment methods, requiring knowledge of containerization concepts and Docker tooling.
-- Learning Curve: Team members may need to undergo training to familiarize themselves with Docker and container orchestration technologies.
-- Infrastructure Requirements: Docker relies on container orchestration platforms (e.g., Kubernetes) for managing containerized applications at scale, which may necessitate additional infrastructure setup and management.
-- Potential Performance Overhead: Docker containers incur slight performance overhead compared to bare-metal or virtualized environments, although this is generally negligible for most applications.
+* Kubernetes
+* Docker Swarm
+* Amazon ECS (Elastic Container Service)
 
-Overall, the benefits of using Docker outweigh the associated challenges, and the decision aligns with our long-term goals for scalability, portability, and automation in application deployment.
+## Decision Outcome
 
-## Status
-Accepted
+Chosen option: "Kubernetes", because it is the industry-standard container orchestration platform with strong community support, extensive features for scaling and managing containerized applications, and seamless integration with our existing infrastructure.
 
-## Additional Notes
-- We will explore container orchestration platforms such as Kubernetes for managing Docker containers in production.
-- Continuous integration and deployment pipelines will be set up to automate the build, test, and deployment processes using Docker containers.
-- Team members will undergo Docker training sessions to build expertise in containerization technologies.
+### Positive Consequences
+
+* Scalability: Kubernetes provides powerful scaling capabilities to handle increased workload demands.
+* Portability: Kubernetes allows us to deploy and manage containers across different environments, including on-premises and cloud.
+* DevOps Integration: Kubernetes integrates seamlessly with our existing CI/CD pipelines and DevOps tools, enabling automation and streamlining deployment workflows.
+
+### Negative Consequences
+
+* Learning Curve: Kubernetes has a steep learning curve, requiring team members to undergo training to effectively manage and operate Kubernetes clusters.
+* Infrastructure Complexity: Managing Kubernetes clusters introduces additional infrastructure complexity, requiring dedicated resources for maintenance and operations.
+
+## Pros and Cons of the Options
+
+### Kubernetes
+
+* Good, because it is the industry-standard container orchestration platform with a large and active community.
+* Good, because it offers advanced features for scaling, load balancing, and service discovery.
+* Bad, because it has a steep learning curve for administrators and developers.
+
+### Docker Swarm
+
+* Good, because it is simpler to set up and manage compared to Kubernetes.
+* Good, because it is tightly integrated with Docker and provides basic container orchestration capabilities.
+* Bad, because it lacks some advanced features and scalability options compared to Kubernetes.
+
+### Amazon ECS (Elastic Container Service)
+
+* Good, because it is fully managed by AWS and integrates seamlessly with other AWS services.
+* Good, because it offers simplicity and ease of use for deploying and managing containers on AWS infrastructure.
+* Bad, because it ties the application to AWS, limiting portability to other cloud providers.
+
