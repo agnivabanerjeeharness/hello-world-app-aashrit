@@ -10,7 +10,6 @@ metadata:
     jira/project-key: IDP
     pagerduty.com/service-id: PT5ED69
     circleci.com/project-slug: github/vigneswara-propelo/python-pipeline-samples
-    jenkins.io/github-folder: 'CDS-68313'
 spec:
   type: service
   owner: "IDPAdmin"
