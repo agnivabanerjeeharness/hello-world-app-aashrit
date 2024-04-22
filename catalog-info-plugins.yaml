@@ -34,7 +34,7 @@ metadata:
     splunk.com/on-call-team: Example
     backstage.io/source-location: url:https://github.com/Aashrit-Harness/hello-world-app/blob/master/
     backstage.io/adr-location: docs/adrs
-    statuspage.io/components: instance:hknd4rscrt1t,mh487nk85mwx
+    statuspage.io/components: instance:hknd4rscrt1t
 
 spec:
   type: service
