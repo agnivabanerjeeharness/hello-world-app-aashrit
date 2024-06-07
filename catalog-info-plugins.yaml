@@ -35,7 +35,7 @@ metadata:
     backstage.io/source-location: url:https://github.com/Aashrit-Harness/hello-world-app/blob/master/
     backstage.io/adr-location: docs/adrs
     statuspage.io/components: statuspageplugin:hknd4rscrt1t
-    bugsnag.com/project-key: harnesss-dot-io/harnesss-dot-io/diaryblog
+    bugsnag.com/project-key: harnesss-dot-io/diaryblog
 
 spec:
   type: service
