@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: harness-cd-new-annotation
+  annotations:
+    harness.io/pipelines: |
+      Build: https://app.harness.io/ng/account/vpCkHKsDSxK9_KYfjCTMKA/home/orgs/default/projects/IDP_UI/pipelines/Build_IDP_UI_App/pipeline-studio/?storeType=INLINE
+      Lint: https://app.harness.io/ng/account/vpCkHKsDSxK9_KYfjCTMKA/home/orgs/default/projects/IDP_UI/pipelines/Lint/pipeline-studio
+      TypeCheck: https://app.harness.io/ng/account/vpCkHKsDSxK9_KYfjCTMKA/home/orgs/default/projects/IDP_UI/pipelines/Typecheck/pipeline-studio
+    harness.io/services: |
+      IDP UI: https://app.harness.io/ng/account/vpCkHKsDSxK9_KYfjCTMKA/cd/orgs/IDP_SAAS/projects/IDPSAASPROD/services/idpapp
+    grafana/dashboard-selector: "http://35.247.91.252/d/RpSjVqWMz/redis-memstore?orgId=1"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guests
+  system: examples
+  providesApis: [example-grpc-api]
