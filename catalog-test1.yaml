@@ -4,9 +4,9 @@ metadata:
   name: cicd
   annotations:
     harness.io/pipelines: |
-      Build: https://qa.harness.io/ng/account/Vp0XSI5MSgiF9p8lIIpThg/module/idp-admin/orgs/default/projects/automation/pipelines/quickstart/pipeline-studio?storeType=INLINE
+      Build: https://qa.harness.io/ng/account/Vp0XSI5MSgiF9p8lIIpThg/module/orgs/default/projects/automation/pipelines/quickstart/pipeline-studio?storeType=INLINE
     harness.io/services: |
-      IDP UI: https://qa.harness.io/ng/account/Vp0XSI5MSgiF9p8lIIpThg/module/idp-admin/orgs/default/projects/automation/settings/services/nginx?tab=summaryTab
+      IDP UI: https://qa.harness.io/ng/account/Vp0XSI5MSgiF9p8lIIpThg/all/cd/orgs/default/projects/automation/services/nginx
     grafana/dashboard-selector: "http://35.247.91.252/d/RpSjVqWMz/redis-memstore?orgId=1"
 spec:
   type: service
