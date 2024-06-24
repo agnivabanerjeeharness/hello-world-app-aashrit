@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ci-cd plugin test 
+  name: cicd
   annotations:
     harness.io/pipelines: |
       Build: https://qa.harness.io/ng/account/Vp0XSI5MSgiF9p8lIIpThg/home/orgs/default/projects/automation/pipelines/quickstart/pipeline-studio/?storeType=INLINE
