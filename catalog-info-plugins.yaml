@@ -37,7 +37,6 @@ metadata:
     statuspage.io/components: statuspageplugin:hknd4rscrt1t
     bugsnag.com/project-key: Harness/app.harness.io
     vault.io/secrets-path: QA_Secrets/USERS/idpautomation
-    vault.io/secrets-engine: customSecretEngine
 
 spec:
   type: service
