@@ -36,6 +36,8 @@ metadata:
     backstage.io/adr-location: docs/adrs
     statuspage.io/components: statuspageplugin:hknd4rscrt1t
     bugsnag.com/project-key: Harness/app.harness.io
+    vault.io/secrets-path: ui/vault/secrets/QA_Secrets/list/IDP/Cypress_Automation/Plugins/
+    vault.io/secrets-engine: customSecretEngine
 
 spec:
   type: service
