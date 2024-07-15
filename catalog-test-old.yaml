@@ -5,7 +5,7 @@ metadata:
   description: test service
   annotations:
     harness.io/project-url: https://app.harness.io/ng/account/vpCkHKsDSxK9_KYfjCTMKA/home/orgs/default/projects/IDP_UI/pipelines
-    harness.io/ci-pipelineIds: Build_IDP_UI_App,Coverage,Jest,TypeCheck
+    harness.io/ci-pipelineIds: Coverage,Jest,TypeCheck,Build_IDP_UI_App
     harness.io/cd-serviceId: idp
     harness.io/projects: IDP_UI,IDP_Settings_UI
     harness.io/project-url-qa: https://qa.harness.io/ng/account/Vp0XSI5MSgiF9p8lIIpThg/cd/orgs/default/projects/IDPdeploy/pipelines
