@@ -11,6 +11,7 @@ metadata:
     #   IDP UI: https://app.harness.io/ng/account/vpCkHKsDSxK9_KYfjCTMKA/cd/orgs/IDP_SAAS/projects/IDPSAASPROD/services/idpapp
     harness.io/pipelines: |
       Build: https://laxmiharness.pr2.harness.io/ng/account/6cBjZs_fTWCiRITqFyRrgQ/module/idp-admin/orgs/default/projects/IDP/pipelines/TestRun/pipeline-studio?storeType=INLINE
+      Build2: https://laxmiharness.pr2.harness.io/ng/account/6cBjZs_fTWCiRITqFyRrgQ/module/cd/orgs/default/projects/IDP/pipelines/Test_New_Changes/deployments/0ZwULWaGR7GUvqPfnFNrUg/pipeline
     harness.io/services: |
       IDP UI: https://laxmiharness.pr2.harness.io/ng/account/6cBjZs_fTWCiRITqFyRrgQ/module/idp-admin/orgs/default/projects/IDP/pipelines/Test_New_Changes/pipeline-studio?storeType=INLINE
       IDP UI1: https://laxmiharness.pr2.harness.io/ng/account/6cBjZs_fTWCiRITqFyRrgQ/module/idp-admin/orgs/default/projects/IDP/pipelines/Canary_Example/executions?storeType=INLINE
