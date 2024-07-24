@@ -10,8 +10,7 @@ metadata:
     # harness.io/services: |
     #   IDP UI: https://app.harness.io/ng/account/vpCkHKsDSxK9_KYfjCTMKA/cd/orgs/IDP_SAAS/projects/IDPSAASPROD/services/idpapp
     harness.io/pipelines: |
-      Build: https://laxmiharness.pr2.harness.io/ng/account/6cBjZs_fTWCiRITqFyRrgQ/module/idp-admin/orgs/default/projects/IDP/pipelines/TestRun/pipeline-studio?storeType=INLINE
-      Build2: https://laxmiharness.pr2.harness.io/ng/account/6cBjZs_fTWCiRITqFyRrgQ/module/cd/orgs/default/projects/IDP/pipelines/Test_New_Changes/deployments/0ZwULWaGR7GUvqPfnFNrUg/pipeline
+      Build: https://laxmiharness.pr2.harness.io/ng/account/6cBjZs_fTWCiRITqFyRrgQ/module/cd/orgs/default/projects/IDP/pipelines/TestRun/pipeline-studio?storeType=INLINE
     harness.io/services: |
       IDP UI: https://laxmiharness.pr2.harness.io/ng/account/6cBjZs_fTWCiRITqFyRrgQ/module/idp-admin/orgs/default/projects/IDP/pipelines/Canary_Example/executions?storeType=INLINE
     grafana/dashboard-selector: "http://35.247.91.252/d/RpSjVqWMz/redis-memstore?orgId=1"
