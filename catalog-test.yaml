@@ -13,6 +13,7 @@ metadata:
       Build: https://laxmiharness.pr2.harness.io/ng/account/6cBjZs_fTWCiRITqFyRrgQ/module/idp-admin/orgs/default/projects/IDP/pipelines/TestRun/pipeline-studio?storeType=INLINE
     harness.io/services: |
       IDP UI: https://laxmiharness.pr2.harness.io/ng/account/6cBjZs_fTWCiRITqFyRrgQ/module/idp-admin/orgs/default/projects/IDP/pipelines/Test_New_Changes/pipeline-studio?storeType=INLINE
+      IDP UI: https://laxmiharness.pr2.harness.io/ng/account/6cBjZs_fTWCiRITqFyRrgQ/module/idp-admin/orgs/default/projects/IDP/pipelines/Canary_Example/executions?storeType=INLINE
     grafana/dashboard-selector: "http://35.247.91.252/d/RpSjVqWMz/redis-memstore?orgId=1"
 spec:
   type: service
