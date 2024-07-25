@@ -3,17 +3,17 @@ kind: Component
 metadata:
   name: harness-cd-new-annotation
   annotations:
-    # harness.io/pipelines: |
-    #   Build: https://app.harness.io/ng/account/vpCkHKsDSxK9_KYfjCTMKA/home/orgs/default/projects/IDP_UI/pipelines/Build_IDP_UI_App/pipeline-studio/?storeType=INLINE
-    #   Lint: https://app.harness.io/ng/account/vpCkHKsDSxK9_KYfjCTMKA/home/orgs/default/projects/IDP_UI/pipelines/Lint/pipeline-studio
-    #   TypeCheck: https://app.harness.io/ng/account/vpCkHKsDSxK9_KYfjCTMKA/home/orgs/default/projects/IDP_UI/pipelines/Typecheck/pipeline-studio
-    # harness.io/services: |
-    #   IDP UI: https://app.harness.io/ng/account/vpCkHKsDSxK9_KYfjCTMKA/cd/orgs/IDP_SAAS/projects/IDPSAASPROD/services/idpapp
     harness.io/pipelines: |
-      Build: https://laxmiharness.pr2.harness.io/ng/account/6cBjZs_fTWCiRITqFyRrgQ/all/orgs/default/projects/IDP/pipelines/TestRun/pipeline-studio?storeType=INLINE
+      Build: https://app.harness.io/ng/account/vpCkHKsDSxK9_KYfjCTMKA/home/orgs/default/projects/IDP_UI/pipelines/Build_IDP_UI_App/pipeline-studio/?storeType=INLINE
+      Lint: https://app.harness.io/ng/account/vpCkHKsDSxK9_KYfjCTMKA/home/orgs/default/projects/IDP_UI/pipelines/Lint/pipeline-studio
+      TypeCheck: https://app.harness.io/ng/account/vpCkHKsDSxK9_KYfjCTMKA/home/orgs/default/projects/IDP_UI/pipelines/Typecheck/pipeline-studio
     harness.io/services: |
-      IDP UI: https://laxmiharness.pr2.harness.io/ng/account/6cBjZs_fTWCiRITqFyRrgQ/module/idp-admin/orgs/default/projects/IDP/pipelines/Canary_Example/executions?storeType=INLINE
-      IDP UI2: https://laxmiharness.pr2.harness.io/ng/account/6cBjZs_fTWCiRITqFyRrgQ/module/cd/orgs/default/projects/IDP/services/RishiTestServ
+      IDP UI: https://app.harness.io/ng/account/vpCkHKsDSxK9_KYfjCTMKA/cd/orgs/IDP_SAAS/projects/IDPSAASPROD/services/idpapp
+    # harness.io/pipelines: |
+    #   Build: https://laxmiharness.pr2.harness.io/ng/account/6cBjZs_fTWCiRITqFyRrgQ/all/orgs/default/projects/IDP/pipelines/TestRun/pipeline-studio?storeType=INLINE
+    # harness.io/services: |
+    #   IDP UI: https://laxmiharness.pr2.harness.io/ng/account/6cBjZs_fTWCiRITqFyRrgQ/module/idp-admin/orgs/default/projects/IDP/pipelines/Canary_Example/executions?storeType=INLINE
+    #   IDP UI2: https://laxmiharness.pr2.harness.io/ng/account/6cBjZs_fTWCiRITqFyRrgQ/module/cd/orgs/default/projects/IDP/services/RishiTestServ
     grafana/dashboard-selector: "http://35.247.91.252/d/RpSjVqWMz/redis-memstore?orgId=1"
 spec:
   type: service
