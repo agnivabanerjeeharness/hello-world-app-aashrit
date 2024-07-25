@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: harness-cd-new-annotation
-  # annotations:
+  annotations:
   #   harness.io/pipelines: |
   #     Build: https://app.harness.io/ng/account/vpCkHKsDSxK9_KYfjCTMKA/home/orgs/default/projects/IDP_UI/pipelines/Build_IDP_UI_App/pipeline-studio/?storeType=INLINE
   #     Lint: https://app.harness.io/ng/account/vpCkHKsDSxK9_KYfjCTMKA/home/orgs/default/projects/IDP_UI/pipelines/Lint/pipeline-studio
