@@ -42,7 +42,7 @@ metadata:
     # snyk.io/target-id: aarlaud-snyk/github-stats
     # snyk.io/project-ids: 76963aab-d7a1-4522-85a3-51922caa7100,864c1766-e34a-49e3-9474-2583128521bf
     # snyk.io/exclude-project-ids: 620b0bde-0c6d-4246-9c5b-5ea6f01cd92f
-    # newrelic.com/dashboard-guid: MzkyNDI5MXxBUE18QVBQTElDQVRJT058MTMyOTcwOTk3Ng
+    newrelic.com/dashboard-guid: MzkyNDI5MXxBUE18QVBQTElDQVRJT058MTMyOTcwOTk3Ng
 
 spec:
   type: service
