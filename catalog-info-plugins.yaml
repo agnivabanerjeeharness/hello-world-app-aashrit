@@ -37,7 +37,7 @@ metadata:
     statuspage.io/components: statuspageplugin:hknd4rscrt1t
     bugsnag.com/project-key: Harness/app.harness.io
     vault.io/secrets-path: secrets/cd-test/show/github
-    'jfrog-artifactory/image-name': 'artifactory-build-info'
+    'jfrog-artifactory/image-name': 'docker-trial'
 spec:
   type: service
   owner: "IDPAdmin"
