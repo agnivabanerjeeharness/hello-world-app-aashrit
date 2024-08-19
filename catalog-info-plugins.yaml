@@ -37,13 +37,7 @@ metadata:
     statuspage.io/components: statuspageplugin:hknd4rscrt1t
     bugsnag.com/project-key: Harness/app.harness.io
     vault.io/secrets-path: secrets/cd-test/show/github
-    snyk.io/org-id: 5a19605d-4be6-4ffc-884b-a4e23fc91ac2
-    snyk.io/targets: docker.io/python
-    # snyk.io/target-id: aarlaud-snyk/github-stats
-    # snyk.io/project-ids: 76963aab-d7a1-4522-85a3-51922caa7100,864c1766-e34a-49e3-9474-2583128521bf
-    # snyk.io/exclude-project-ids: 620b0bde-0c6d-4246-9c5b-5ea6f01cd92f
-    newrelic.com/dashboard-guid: MzkyNDI5MXxBUE18QVBQTElDQVRJT058MTMyOTcwOTk3Ng
-
+    'jfrog-artifactory/image-name': 'artifactory-build-info'
 spec:
   type: service
   owner: "IDPAdmin"
