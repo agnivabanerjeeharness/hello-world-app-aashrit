@@ -38,6 +38,8 @@ metadata:
     bugsnag.com/project-key: Harness/app.harness.io
     vault.io/secrets-path: secrets/cd-test/show/github
     'jfrog-artifactory/image-name': 'exposures'
+    jfrog.com/artifactory-artifact: 'harnessio.jfrog.io/artifactory/docker-trial/'
+    jfrog.com/artifactory-repo: 'docker-trial'
 spec:
   type: service
   owner: "IDPAdmin"
