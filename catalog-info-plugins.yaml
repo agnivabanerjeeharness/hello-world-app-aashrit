@@ -40,6 +40,7 @@ metadata:
     'jfrog-artifactory/image-name': 'exposures'
     jfrog.com/artifactory-artifact: 'harnessio.jfrog.io/artifactory/docker-trial/'
     jfrog.com/artifactory-repo: 'docker-trial'
+    argocd/app-name: myapp-argo-application
 spec:
   type: service
   owner: "IDPAdmin"
