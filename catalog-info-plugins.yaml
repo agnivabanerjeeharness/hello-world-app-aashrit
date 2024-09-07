@@ -45,4 +45,4 @@ spec:
   type: service
   owner: "IDPAdmin"
   lifecycle: experimental
-  system: hello-world-app-pliugins
+  system: hello-world-app-pliugin
