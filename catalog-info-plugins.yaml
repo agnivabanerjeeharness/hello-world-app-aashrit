@@ -45,3 +45,4 @@ spec:
   type: service
   owner: "IDPAdmin"
   lifecycle: experimental
+  system: hello-world-app-plugins
