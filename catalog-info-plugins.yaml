@@ -14,7 +14,7 @@ metadata:
     jira/project-key: IDP
     pagerduty.com/service-id: PT5ED69
     circleci.com/project-slug: github/vigneswara-propelo/python-pipeline-samples
-    jenkins.io/github-folder: 'TestFolder'
+    jenkins.io/github-folder: 'CDS-68313'
     firehydrant.com/service-name: 'idp-ui-automation'
     sonarqube.org/project-key: ccmui
     datadoghq.com/site: datadoghq.com
