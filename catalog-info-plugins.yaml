@@ -41,6 +41,7 @@ metadata:
     jfrog.com/artifactory-artifact: 'harnessio.jfrog.io/artifactory/docker-trial/'
     jfrog.com/artifactory-repo: 'docker-trial'
     argocd/app-name: nginx
+    blackduck/project: YOUR_PROJECT_HOST_NAME/YOUR_PROJECT_NAME/YOUR_PROJECT_VERSION
 spec:
   type: service
   owner: "IDPAdmin"
