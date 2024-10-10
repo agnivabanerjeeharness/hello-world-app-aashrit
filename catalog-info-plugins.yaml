@@ -30,6 +30,7 @@ metadata:
     rootly.com/service-id: 3d62aea1-509f-4c31-a8d1-6d2515b16e66
     rootly.com/service-auto-import: enabled
     dev.azure.com/project-repo: AzurePipelineTest/pipelines-java
+    dev.azure.com/host-org: dev.azure.com/busyajinkya0205
     github.com/devcontainer-path: .devcontainer/devcontainer.json
     splunk.com/on-call-team: Example
     backstage.io/source-location: url:https://github.com/Aashrit-Harness/hello-world-app/blob/master/
