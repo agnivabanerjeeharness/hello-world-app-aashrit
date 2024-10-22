@@ -29,8 +29,10 @@ metadata:
     dynatrace.com/synthetics-ids: HTTP_CHECK-D3BE9FA03FDFFF24
     rootly.com/service-id: 3d62aea1-509f-4c31-a8d1-6d2515b16e66
     rootly.com/service-auto-import: enabled
-    dev.azure.com/project-repo: AzurePipelineTest/java-pipelines
+    # dev.azure.com/project-repo: AzurePipelineTest/java-pipelines
     dev.azure.com/host-org: dev.azure.com/busyajinkya0205
+    dev.azure.com/build-definition: ajinkya-sh.pipelines-java
+    dev.azure.com/project: AzurePipelineTest
     github.com/devcontainer-path: .devcontainer/devcontainer.json
     splunk.com/on-call-team: Example
     backstage.io/source-location: url:https://github.com/Aashrit-Harness/hello-world-app/blob/master/
