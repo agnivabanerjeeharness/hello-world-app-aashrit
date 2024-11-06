@@ -41,7 +41,7 @@ metadata:
     bugsnag.com/project-key: Harness/app.harness.io
     vault.io/secrets-path: secrets/cd-test/show/github
     # 'jfrog-artifactory/image-name': 'exposures'
-    jfrog.com/artifactory-artifact: 'triale6nhj4.jfrog.io/artifactory/maven-libs-snapshot/com/jfrog/my-jfrog-app/1.1-SNAPSHOT/my-jfrog-app-1.1-20241106.065833-1.jar'
+    jfrog.com/artifactory-artifact: 'triale6nhj4.jfrog.io/artifactory/maven-libs-snapshot/com/jfrog/my-jfrog-app'
     jfrog.com/artifactory-repo: 'maven-libs-snapshot'
     argocd/app-name: nginx
     blackduck/project: YOUR_PROJECT_HOST_NAME/YOUR_PROJECT_NAME/YOUR_PROJECT_VERSION
