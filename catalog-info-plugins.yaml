@@ -41,7 +41,7 @@ metadata:
     bugsnag.com/project-key: Harness/app.harness.io
     vault.io/secrets-path: secrets/cd-test/show/github
     # 'jfrog-artifactory/image-name': 'exposures'
-    jfrog.com/artifactory-group: 'com.jfrog'
+    jfrog.com/artifactory-group: 'com/jfrog'
     jfrog.com/artifactory-artifact: 'my-jfrog-app'
     jfrog.com/artifactory-repo: 'maven-libs-snapshot-local'
     argocd/app-name: nginx
