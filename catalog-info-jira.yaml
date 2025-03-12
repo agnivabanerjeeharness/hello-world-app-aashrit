@@ -1,7 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "hello-world-app-jira"
+  name: hello-world-app-jira
+  namespace: default
   annotations:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: Aashrit-Harness/hello-world-app
@@ -12,5 +13,5 @@ metadata:
     circleci.com/project-slug: github/vigneswara-propelo/python-pipeline-samples
 spec:
   type: service
-  owner: "IDPAdmin"
+  owner: user:IDPAdmin 
   lifecycle: experimental
