@@ -41,11 +41,11 @@ metadata:
     bugsnag.com/project-key: Harness/app.harness.io
     vault.io/secrets-path: secrets/cd-test/show/github
     # 'jfrog-artifactory/image-name': 'exposures'
-    jfrog.com/artifactory-group: io/harness/cv
+    jfrog.com/artifactory-group: io.harness.cv
     jfrog.com/artifactory-artifact: data-collection-dsl
-    jfrog.com/artifactory-repo: harness-public
-    jfrog.com/artifactory-packaging: jar
-    jfrog.com/artifactory-scope: compile
+    jfrog.com/artifactory-repo: agniva
+    #jfrog.com/artifactory-packaging: jar
+    #jfrog.com/artifactory-scope: compile
     argocd/app-name: nginx
     blackduck/project: YOUR_PROJECT_HOST_NAME/YOUR_PROJECT_NAME/YOUR_PROJECT_VERSION
 spec:
