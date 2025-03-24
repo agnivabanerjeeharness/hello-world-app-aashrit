@@ -45,6 +45,7 @@ metadata:
     jfrog.com/artifactory-artifact: data-collection-dsl
     jfrog.com/artifactory-repo: harness-public
     jfrog.com/artifactory-packaging: jar
+    jfrog.com/artifactory-scope: compile
     argocd/app-name: nginx
     blackduck/project: YOUR_PROJECT_HOST_NAME/YOUR_PROJECT_NAME/YOUR_PROJECT_VERSION
 spec:
