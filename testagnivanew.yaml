@@ -1,0 +1,55 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "agniva-world-app-plugins"
+  additionalInfo:
+    value1: Aashrit
+    value2: Garg
+    value3: google
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: Aashrit-Harness/hello-world-app
+    backstage.io/kubernetes-label-selector: 'app=idp-ui'
+    backstage.io/kubernetes-namespace: '642d4b9741ee3c555d4e1a7f'
+    jira/project-key: IDP
+    pagerduty.com/service-id: PT5ED69
+    circleci.com/project-slug: github/vigneswara-propelo/python-pipeline-samples
+    jenkins.io/github-folder: 'TestFolder'
+    firehydrant.com/service-name: 'idp-ui-automation'
+    sonarqube.org/project-key: ccmui
+    datadoghq.com/site: datadoghq.com
+    datadoghq.com/dashboard-url: https://p.datadoghq.com/sb/sbi3nxkufr6tp6mm-4286f16041defcdf017b38334b8aef35
+    datadoghq.com/graph-token: afa83581c8066fa1bca164b9b5cd9efc5d886ee7d58eef854b0f83541cfab9df
+    gitlab.com/project-id: '50907330'
+    prometheus.io/rule: memUsage|component,node_memory_active_bytes|instance,sum by (instance) (node_cpu_seconds_total)
+    prometheus.io/alert: all
+    opsgenie.com/component-selector: 'tag:"service:hello_world"'
+    opsgenie.com/team: 'Hello World Team'
+    dynatrace.com/dynatrace-entity-id: APPLICATION-A97880B9A9D5EAE6
+    dynatrace.com/synthetics-ids: HTTP_CHECK-6832023F41EB3AD2
+    rootly.com/service-id: 3d62aea1-509f-4c31-a8d1-6d2515b16e66
+    rootly.com/service-auto-import: enabled
+    # dev.azure.com/project-repo: AzurePipelineTest/java-pipelines
+    dev.azure.com/host-org: dev.azure.com/busyajinkya0205
+    dev.azure.com/build-definition: ajinkya-sh.pipelines-java
+    dev.azure.com/project: AzurePipelineTest
+    github.com/devcontainer-path: .devcontainer/devcontainer.json
+    splunk.com/on-call-team: Example
+    backstage.io/source-location: url:https://github.com/Aashrit-Harness/hello-world-app/blob/master/
+    backstage.io/adr-location: docs/adrs
+    statuspage.io/components: statuspageplugin:hknd4rscrt1t
+    bugsnag.com/project-key: Harness/app.harness.io
+    vault.io/secrets-path: secrets/cd-test/show/github
+    # 'jfrog-artifactory/image-name': 'exposures'
+    jfrog.com/artifactory-group: io.harness.cv
+    jfrog.com/artifactory-artifact: data-collection-dsl
+    jfrog.com/artifactory-repo: agniva
+    #jfrog.com/artifactory-packaging: jar
+    #jfrog.com/artifactory-scope: compile
+    argocd/app-name: nginx
+    blackduck/project: YOUR_PROJECT_HOST_NAME/YOUR_PROJECT_NAME/YOUR_PROJECT_VERSION
+spec:
+  type: service
+  owner: "IDPAdmin"
+  lifecycle: experimental
+  system: systemEntity
