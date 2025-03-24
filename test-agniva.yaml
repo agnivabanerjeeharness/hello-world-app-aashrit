@@ -41,7 +41,7 @@ metadata:
     bugsnag.com/project-key: Harness/app.harness.io
     vault.io/secrets-path: secrets/cd-test/show/github
     # 'jfrog-artifactory/image-name': 'exposures'
-    jfrog.com/artifactory-group: io.harness.cv
+    jfrog.com/artifactory-group: io/harness/cv
     jfrog.com/artifactory-artifact: data-collection-dsl
     jfrog.com/artifactory-repo: harness-public
     jfrog.com/artifactory-packaging: jar
