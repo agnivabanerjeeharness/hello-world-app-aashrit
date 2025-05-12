@@ -13,5 +13,5 @@ metadata:
     circleci.com/project-slug: github/vigneswara-propelo/python-pipeline-samples
 spec:
   type: service
-  owner: user:IDPAdmin 
+  owner: "IDPAdmin" 
   lifecycle: experimental
